@@ -1,0 +1,111 @@
+<% include header.ejs%>
+<body>
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Laoding page -->
+<div id="preloader"><div id="spinner"></div></div>
+
+<!-- .slideshow -->
+<ul class="cb-slideshow" id="cb_slideshow" style="display:none">
+  <li><span>Image 01</span><div></div></li>
+  <li><span>Image 02</span><div></div></li>
+  <li><span>Image 03</span><div></div></li>
+  <li><span>Image 04</span><div></div></li>
+  <li><span>Image 05</span><div></div></li>
+  <li><span>Image 06</span><div></div></li>
+</ul>
+<!-- /.slideshow -->
+
+<!-- .wrapper -->
+<div class="wrapper">
+
+  <!--- .Content -->
+  <section class="tab-content">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <div class="row">
+
+            <div class="col-md-3 widget-profil">
+              <% include widget-profile/widget-profile.ejs %>
+            </div>
+
+            <div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
+
+              <!-- verticalTab menu -->
+              <div id="verticalTab">
+
+                <ul class="resp-tabs-list">
+                  <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">
+                    <span class="tite-list">profile</span>
+                    <i class="fa fa-user icon_menu icon_menu_active"></i>
+                  </li>
+
+                  <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume">
+                    <span class="tite-list">resume</span>
+                    <i class="fa fa-tasks icon_menu"></i>
+                  </li>
+
+                  <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio">
+                    <span class="tite-list">portfolio</span>
+                    <i class="fa fa-briefcase icon_menu"></i>
+                  </li>
+
+                  <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
+                    <span class="tite-list">blog</span>
+                    <i class="fa fa-bullhorn icon_menu"></i>
+                  </li>
+
+                  <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;">
+                    <span class="tite-list">contact</span>
+                    <i class="fa fa-envelope icon_menu"></i>
+                  </li>
+
+                  <a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
+                  <a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
+                </ul>
+                <!-- /resp-tabs-list -->
+
+
+
+                <!-- resp-tabs-container -->
+                <div class="resp-tabs-container">
+
+                  <% include profile/profile.ejs %>
+                  <% include resume/resume.ejs %>
+                  <% include portfolio/portfolio.ejs %>
+                  <% include blog/blog.ejs %>
+                  <% include contact/contact.ejs %>
+
+                </div>
+                <!-- End #resp-tabs-container -->
+
+              </div><!-- End verticalTab -->
+
+            </div><!-- End flexy_content -->
+
+
+          </div><!-- End row -->
+
+        </div><!-- End col-md-12 -->
+
+      </div><!-- End row -->
+
+    </div><!-- End container -->
+
+  </section>
+  <!-- End Content -->
+
+</div>
+<!-- End wrapper -->
+
+<% include switcher.ejs%>
+
+</body>
+<% include footer.ejs%>
