@@ -1481,7 +1481,11 @@ ul.about {
 .blog-article .blog-content {
     float: left;
     width: 100%;
-    margin-top: 28px;
+    //margin-top: 28px;
+}
+
+.blog-article label {
+    color:#3B5998;
 }
 
 .blog-article .info {
