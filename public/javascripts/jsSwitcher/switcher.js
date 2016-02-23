@@ -69,61 +69,61 @@ jQuery(document).ready(function($) {
 
     $(".gray").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/gray.css");
-        $.cookie('layout_color', 'css/colors/gray.css');
+        $.cookie('layout_color', 'stylesheets/colors/gray.css');
         return false;
     });
 
     $(".green").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/green.css");
-        $.cookie('layout_color', 'css/colors/green.css');
+        $.cookie('layout_color', 'stylesheets/colors/green.css');
         return false;
     });
 
     $(".blue").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/blue.css");
-        $.cookie('layout_color', 'css/colors/blue.css');
+        $.cookie('layout_color', 'stylesheets/colors/blue.css');
         return false;
     });
 
     $(".red").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/red.css");
-        $.cookie('layout_color', 'css/colors/red.css');
+        $.cookie('layout_color', 'stylesheets/colors/red.css');
         return false;
     });
 
     $(".yellow").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/yellow.css");
-        $.cookie('layout_color', 'css/colors/yellow.css');
+        $.cookie('layout_color', 'stylesheets/colors/yellow.css');
         return false;
     });
 
     $(".DarkBlue").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/DarkBlue.css");
-        $.cookie('layout_color', 'css/colors/DarkBlue.css');
+        $.cookie('layout_color', 'stylesheets/colors/DarkBlue.css');
         return false;
     });
 
     $(".orange").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/orange.css");
-        $.cookie('layout_color', 'css/colors/orange.css');
+        $.cookie('layout_color', 'stylesheets/colors/orange.css');
         return false;
     });
 
     $(".rose").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/rose.css");
-        $.cookie('layout_color', 'css/colors/rose.css');
+        $.cookie('layout_color', 'stylesheets/colors/rose.css');
         return false;
     });
 
     $(".lightseagreen").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/lightseagreen.css");
-        $.cookie('layout_color', 'css/colors/lightseagreen.css');
+        $.cookie('layout_color', 'stylesheets/colors/lightseagreen.css');
         return false;
     });
 
     $(".darkolivegreen").click(function() {
         $("#colors-style").attr("href", "stylesheets/colors/darkolivegreen.css");
-        $.cookie('layout_color', 'css/colors/darkolivegreen.css');
+        $.cookie('layout_color', 'stylesheets/colors/darkolivegreen.css');
         return false;
     });
 
