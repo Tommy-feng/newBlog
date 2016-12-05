@@ -87,6 +87,21 @@
 
 </script>
 
+<!-- 测试 用户自定义事件脚本 -->
+<!--<script src="javascripts/test.js"></script>-->
+
+<!-- 收集访问基础数据脚本 -->
+<script type="text/javascript">
+    ;(function () {
+        var s = document.createElement('script');
+        s.id = 'feDataReport';
+        s.type= 'text/javascript';
+        s.src= 'https://ubas.herokuapp.com/static/reportData.js?appId=811756202';
+        document.body.appendChild(s);
+        s = null;
+    })();
+</script>
+
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
